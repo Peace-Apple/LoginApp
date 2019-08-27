@@ -1,0 +1,31 @@
+{
+  "name": "loginapp",
+  "version": "1.0.0",
+  "description": "Simnple auth app",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "nodemon ./node_modules/.bin/babel-node app.js"
+  },
+  "author": "Apple",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.16.2",
+    "express-validator": "^6.1.1",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "passport-local": "^1.0.0",
+    "pg": "^7.12.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.19.1"
+  }
+}
