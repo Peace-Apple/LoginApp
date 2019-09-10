@@ -30,6 +30,7 @@ app.use(
 );
 
 app.use(bodyParser.json());
+
 app.use(cookieParser());
   
 // set up static folder
